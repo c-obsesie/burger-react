@@ -1,9 +1,10 @@
-import './App.css';
-
+import React from 'react'
+import Layout from '../src/components/Layout/Layout'
+import BurgerBuilder from '../src/containers/BurgerBuilder/BurgerBuilder'
 function App() {
   return (
-    <div className="App">
-<h1>sal</h1>
+    <div >
+<Layout><BurgerBuilder></BurgerBuilder></Layout>
     </div>
   );
 }
