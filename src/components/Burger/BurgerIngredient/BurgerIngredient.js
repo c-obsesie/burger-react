@@ -2,14 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "./BurgerIngredient.css";
 class BurgerIngredient extends Component {
-    state={
-        ingredients:{
-            salad:1,
-            bacon:1,
-            chese:2,
-            meat:2,
-        }
-    }
+  
   render() {
     let ingredient = null;
 
