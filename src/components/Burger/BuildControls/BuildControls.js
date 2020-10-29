@@ -20,12 +20,11 @@ const controls=[
 },
 ]
 
-const buildControls=(props)=>{
-    
+const buildControls=(props)=>(
     <div className="BuildControls">
         {controls.map(ctrl=>(<BuildControl key={ctrl.label} label={ctrl.label}></BuildControl>))}
 
     </div>
-}
+)
 
 export default  buildControls;
